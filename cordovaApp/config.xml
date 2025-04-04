@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.cordovaApp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>cordova_app</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <!-- Add preferences inside the <widget> node -->
+    <preference name="android-build-tool" value="gradle" />
+
+    <!-- Add plugins inside the <widget> node -->
+    <gap:plugin name="clevertap-cordova" source="npm">
+        <variable name="CLEVERTAP_ACCOUNT_ID" value="TEST-9Z8-W9R-R47Z" />
+        <variable name="CLEVERTAP_TOKEN" value="TEST-2c0-b1c" />
+        <!-- <variable name="GCM_PROJECT_NUMBER" value="YOUR_GCM_PROJECT_NUMBER" /> -->
+    </gap:plugin>
+    <preference name="GradlePluginGoogleServicesEnabled" value = "true"/>
+    <preference name ="AndroidXEnabled" value="true"/>
+</widget>
+
+
