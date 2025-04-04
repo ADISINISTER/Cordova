@@ -1,0 +1,18 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "clevertap-cordova": {
+      "CLEVERTAP_ACCOUNT_ID": "TEST-W4R-WKK-6K7Z",
+      "CLEVERTAP_TOKEN": "TEST-330-240",
+      "CLEVERTAP_REGION": " ",
+      "PACKAGE_NAME": "com.example.cordovaApp"
+    }
+  },
+  "dependent_plugins": {}
+}
